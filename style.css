@@ -1,0 +1,35 @@
+body {
+    background: #dddddd;
+}
+
+#main-list {
+    list-style: none;
+    margin: 1rem;
+    padding: .5rem;
+    justify-content: space-between;
+    display: flex;
+}
+
+#sec-list {
+    margin: 0 auto 4rem auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem 1.5rem;
+    padding :2rem;
+}
+.list-sec-group-item{
+    list-style: none;
+    display: flex;
+    padding :2rem;
+    margin: 0 auto 4rem auto;
+    gap: 1.5rem 1.5rem;
+    width: 10rem;
+
+}
+#main-form{
+    width: 50rem;
+    height: 60rem;
+    padding : 3rem;
+    margin: 5rem;
+    
+}
