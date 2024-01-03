@@ -2,22 +2,29 @@ body {
     background: #dddddd;
 }
 
-#main-list {
+#main-list
+ {
     list-style: none;
     margin: 1rem;
     padding: .5rem;
     justify-content: space-between;
     display: flex;
 }
-
-#sec-list {
+#second{
+    width:20rem;
+}
+ 
+#sa {
     margin: 0 auto 4rem auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1.5rem 1.5rem;
     padding :2rem;
 }
-.list-sec-group-item{
+#sim{
+    box-shadow: 2px 4px 8px rgb(68,67,67);
+}
+.list-sec-group-item, .list-sec2-group-item{
     list-style: none;
     display: flex;
     padding :2rem;
@@ -28,8 +35,20 @@ body {
 }
 #main-form{
     width: 50rem;
-    height: 60rem;
     padding : 3rem;
     margin: 5rem;
+    justify-content: space-between;
+    box-shadow: 2px 4px 8px rgb(68,67,67);
+}
+#txtForm{  
+    margin:4rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width:70%;
+}
+#btn-form{
     
 }
