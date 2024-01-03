@@ -1,54 +1,95 @@
 body {
-    background: #dddddd;
+    background: #f5f5f5;
 }
+header{
+    display:flex;
+    
+}
+#logo{
+    width:3rem;
+    height: 3rem;
+}
+.list-group-item {
 
-#main-list
- {
-    list-style: none;
-    margin: 1rem;
-    padding: .5rem;
-    justify-content: space-between;
-    display: flex;
-}
-#second{
-    width:20rem;
-}
- 
-#sa {
-    margin: 0 auto 4rem auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1.5rem 1.5rem;
-    padding :2rem;
-}
-#sim{
-    box-shadow: 2px 4px 8px rgb(68,67,67);
-}
-.list-sec-group-item, .list-sec2-group-item{
-    list-style: none;
-    display: flex;
-    padding :2rem;
-    margin: 0 auto 4rem auto;
-    gap: 1.5rem 1.5rem;
-    width: 10rem;
-
-}
-#main-form{
-    width: 50rem;
-    padding : 3rem;
-    margin: 5rem;
-    justify-content: space-between;
-    box-shadow: 2px 4px 8px rgb(68,67,67);
+    background-color: #f5f5f5;
 }
 #txtForm{  
-    margin:4rem;
+    margin:2rem;
     padding: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     width:70%;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
 }
-#btn-form{
+#list-tab{
+    margin:.5rem;
+    padding:.5rem;
+    justify-content: space-between;
+}
+
+#main-list
+ {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+    display: flex;
+}
+#second{
+    width:20rem;
+}
+#sa {
+    margin: 0 auto 4rem auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: .5rem .5rem;
+    padding :1rem;
+}
+#sim{
+    border-right: 1px solid rgb(58,58,58);
+}
+.list-sec-group-item, .list-sec2-group-item{
+    list-style: none;
+    display: grid;
+    padding :2rem;
+    margin: 0 auto 1.2rem auto;
+    gap: .5rem .5rem;
+    width: 10rem;
     
+
+}
+#main-form{
+    width: 40rem;
+    padding : 1rem;
+    margin: 2rem;
+    justify-content: space-between;
+    box-shadow: 2px 4px 8px rgb(68,67,67);
+}
+.list{
+    text-decoration: none;
+    color:black;
+    padding:.4rem;
+}
+.list:hover{
+    background-color:rgb(241, 217, 173) ;
+    color:rgb(68,67,67);
+    border-radius: 4px;
+    font-weight: bold;
+    box-shadow: 2px 4px 8px rgb(238,207,149);}
+.list:visited{
+    background-color: rgb(241,217,173);
+    color:rgb(68,67,67);
+}
+#apro{
+    border-right:1px solid rgb(68,67,67);
+    height: 100vh;
+}
+
+html {
+    overflow: hidden;
+}
+.lab{
+    box-shadow: 2px 4px 8px rgba(59, 59, 59,0.2);
 }
